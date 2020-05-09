@@ -1,0 +1,32 @@
+<html>
+    
+    <head>
+        <title> regular expression </title>
+    </head>
+    
+    <body>
+        <form action= # >
+            <input id = 'uname' placeholder='username' type="text"/>
+            <button onclick="valid()" type="button"> sumbit </button>
+        </form>
+        
+    <script>
+        function valid()
+        {
+            var username = document.getElementById('uname').value;
+            var regx = /E00/;
+        
+        if(regx.test(username))
+            {
+                alert('valid username');
+            }
+        else
+            {
+                alert('invalid username');
+            }
+        }
+    </script>
+        
+    </body>
+    
+</html>
